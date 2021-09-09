@@ -8,7 +8,7 @@ class App extends Component {
             sender:'',
             fullName:'',
             email:'',
-            phone:'0',
+            phone:'',
         }
     }
 

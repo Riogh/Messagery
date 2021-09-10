@@ -17,6 +17,10 @@ const messageTemplate = new mongoose.Schema({
         type:Number,
         required:true,
     },
+    mess:{
+        type:String,
+        required:true,
+    },
 })
 
 module.exports = mongoose.model('mytable', messageTemplate)

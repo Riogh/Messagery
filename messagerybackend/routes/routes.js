@@ -8,6 +8,7 @@ router.post('/sendmessage', (request, response) => {
         fullName:request.body.fullName,
         email:request.body.email,
         phone:request.body.phone,
+        mess:request.body.mess,
     })
     message.save()
     .then(data=>{
